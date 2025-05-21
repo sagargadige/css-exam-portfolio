@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.col-4{
+    width: 33.32%;
+    padding: 0 15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+img{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.d-flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-4{
+    padding: 4rem 0;
+}
+.flex-column{
+    flex-direction: column;
+}
+.w-100{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+/* header start  */
+
+header{
+    background-color: black;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin: 0 25px;
+}
+header ul li a{
+    font-family: sans-serif;
+    color: aliceblue;
+    transition: 0.3s;
+}
+header ul li a:hover{
+    color: black;
+}
+/* header end  */
+
+/* hero start  */
+
+.hero{
+    height: 90vh;
+    background-image: url('../images/Photo-sky-wallpapers-desktop-desgins.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .hero-content{
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-top: 260px;
+}
+.hero .hero-content h2{
+    font-family: sans-serif;
+    font-size: 86px;
+    font-weight: 200;
+    
+}
+.hero .hero-content h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+/* hero end  */
+
+/* services start  */
+.services-heading{
+    margin-bottom: 60px;
+}
+.services{
+    font-family: sans-serif;
+}
+.services-heading h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.services-heading p{
+    font-family: sans-serif;
+
+}
+.services-item i{
+    background: linear-gradient(235deg ,red,purple);
+    padding: 20px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: aliceblue;
+}
+.services-item h4{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+/* services end  */
+/* portfolio start  */
+
+.portfolio-heading{
+    margin-bottom: 60px;
+}
+.portfolio{
+    font-family: sans-serif;
+}
+.portfolio-heading h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.portfolio-heading p{
+    font-family: sans-serif;
+
+}
+.portfolio img{
+    height: 350px;
+    margin-bottom: 40px;
+    /* padding-left: 100px; */
+}
+/* portfolio end  */
+/* blog start   */
+.blog-heading{
+    margin-bottom: 60px;
+}
+.blog{
+    font-family: sans-serif;
+}
+
+.blog-heading h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.blog-heading p{
+    font-family: sans-serif;
+}
+.blog img{
+    width: 400px;
+}
+.blog-item h4{
+    padding: 10px 0;
+    color: gray;
+}
+.blog-item h3{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.blog-item p{
+    line-height: 24px;
+}
+.blog-item a{
+    padding-left: 315px;
+    font-weight: bold;
+    color: rgb(159, 1, 159);
+    padding-top: 5px;
+}
+/* blog end   */
+/* footer start  */
+
+footer{
+    background-color: rgb(217, 217, 217);
+}
+footer .footer-item{
+    display: flex;
+    padding: 4rem 0;
+}
+.footer-item .icon{
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 64);
+    color: aliceblue;
+    border-radius: 50%;
+}
+.item-content{
+    font-family: sans-serif;
+}
+.item-content h4{
+    margin-bottom: 15px;
+}
+/* footer end  */
